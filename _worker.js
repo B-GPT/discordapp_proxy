@@ -5,8 +5,8 @@ export default {
     return fetch(url, {
       headers: request.headers,
       method: request.method,
-      body: request.body,
-      redirect: 'follow'
+      body: request.body
+     // redirect: 'follow'
     });
   }
 }
